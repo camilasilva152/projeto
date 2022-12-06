@@ -1,0 +1,73 @@
+/*Style for Modal component on ./Modal.js */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal-content {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h2 {
+  font-size: 1.5rem;
+}
+
+.modal-header button {
+  font: inherit;
+  border: 1px solid #8b005d;
+  border-radius: 6px;
+  background-color: #8b005d;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+.modal-header button:hover, .modal-header button:active {
+  background-color: #ac0e77;
+  border-color: #ac0e77;
+}
+
+.modal-body {
+  margin-top: 1rem;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.modal-actions button {
+  font: inherit;
+  border: 1px solid #8b005d;
+  border-radius: 6px;
+  background-color: #8b005d;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  margin-left: 0.25rem;
+}
+
+.modal-actions button:hover, .modal-actions button:active {
+  background-color: #ac0e77;
+  border-color: #ac0e77;
+}
